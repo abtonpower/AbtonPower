@@ -1,0 +1,117 @@
+{
+  "title": "Batteries",
+  "subtitle": "SMF / VRLA / UPS Batteries",
+  "data":
+    [
+      {
+        "image": "assets/batteries/SMF EXIDE 7-12 1.png",
+        "title": "Exide EP 7-12",
+        "description": "7Ah / 12V",
+        "warranty": "12 months warranty"
+      },
+      {
+        "image": "assets/batteries/SMF QUANTA 7-12 1.png",
+        "title": "Quanta 12 AL 007",
+        "description": "7Ah / 12V",
+        "warranty": "12 months warranty"
+      },
+      {
+        "image": "assets/batteries/yp41JOU1eVQhF-xxlarge 1.png",
+        "title": "Exide EP 12-12",
+        "description": "12Ah / 12V",
+        "warranty": "12 months warranty"
+      },
+      {
+        "image": "assets/batteries/Screenshot 2024-03-21 at 1.24 1.png",
+        "title": "Quanta 12AL012",
+        "description": "12Ah / 12V",
+        "warranty": "12 months warranty"
+      },
+      {
+        "image": "assets/batteries/1 626.png",
+        "title": "Exide EP18-12",
+        "description": "18Ah / 12V",
+        "warranty": "24 months warranty"
+      },
+      {
+        "image": "assets/batteries/Screenshot 2024-03-21 at 2.08 1.png",
+        "title": "Quanta 12AL018",
+        "description": "18Ah / 12V",
+        "warranty": "24 months warranty"
+      },
+      {
+        "image": "assets/batteries/SMF EXIDE 26-12 1.png",
+        "title": "Exide EP26-12",
+        "description": "26Ah / 12V",
+        "warranty": "24 months warranty"
+      },
+      {
+        "image": "assets/batteries/SMF QUANTA 26-12  1.png",
+        "title": "Quanta 12AL026",
+        "description": "26Ah / 12V",
+        "warranty": "24 months warranty"
+      },
+      {
+        "image": "assets/batteries/SMF EXIDE 42-12 1.png",
+        "title": "Exide EP42-12",
+        "description": "42Ah / 12V",
+        "warranty": "24 months warranty"
+      },
+      {
+        "image": "assets/batteries/SMF QUANTA 42-12 1.png",
+        "title": "Quanta 12AL042",
+        "description": "42Ah / 12V",
+        "warranty": "24 months warranty"
+      },
+      {
+        "image": "assets/batteries/SMF EXIDE 65-12 1.png",
+        "title": "Exide EP65-12",
+        "description": "65Ah / 12V",
+        "warranty": "24 months warranty"
+      },
+      {
+        "image": "assets/batteries/SMF QUANTA 65-12 1.png",
+        "title": "Quanta 12AL065",
+        "description": "65Ah / 12V",
+        "warranty": "24 months warranty"
+      },
+      {
+        "image": "assets/batteries/SMF EXIDE 42-12 1.png",
+        "title": "Exide EP100-12",
+        "description": "100Ah / 12V",
+        "warranty": "24 months warranty"
+      },
+      {
+        "image": "assets/batteries/SMF QUANTA 100-12 1.png",
+        "title": "Quanta 12AL100",
+        "description": "100Ah / 12V",
+        "warranty": "24 months warranty"
+      }
+     
+     
+  ],
+  "description": [
+    {
+      "type": "paragraph",
+      "text": "Enhance Your Power Reliability with Exide & Amaron Quanta SMF Batteries, Long-lasting Performance for UPS, Inverters, and more. Power your devices with confidence using high-quality Exide and Amaron Quanta Sealed Maintenance-Free (SMF) batteries. Ideal for UPS systems, inverters, security equipment, and other applications, these SMF batteries provide reliable backup power and extended lifespans."
+    },
+    {
+      "type": "paragraph",
+      "text": "Key benefits of Exide & Amaron Quanta SMF Batteries:"
+    },
+    {
+      "type": "bullet",
+      "text": [
+        "Maintenance-Free Design: Enjoy hassle-free operation with no need for topping up electrolytes.",
+        "Deep Discharge Recovery: Offers superior resilience against deep discharges, extending battery life.",
+        "Leakproof Construction: Ensures safe and clean operation within your equipment.",
+        "Trusted Brands: Exide and Amaron Quanta are leading battery manufacturers, known for their quality and durability.",
+        "Wide Capacity Range: Find the perfect battery for your needs, with capacities ranging from common options (mention specific capacity range if known)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Upgrade your power backup with Exide or Amaron Quanta SMF batteries. Shop our selection today and discover reliable performance for your critical applications!"
+    }
+  ]
+}

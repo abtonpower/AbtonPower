@@ -1,0 +1,96 @@
+{
+  "title": "Inverters",
+  "subtitle": "Home UPS (850-2400 VA)",
+  "data": [
+    {
+      "image": "assets/home-ups/Microtek_875-removebg-preview 1.png",
+      "title": "Microtek Smart Hybrid 875",
+      "description": "725 VA / 12V",
+      "warranty": "24 Months Warranty"
+    },
+    {
+      "image": "assets/home-ups/luminous eco watt neo 800 1.png",
+      "title": "Luminous Eco Watt Neo",
+      "description": "800 VA / 12V",
+      "warranty": "24 Months Warranty"
+    },
+    {
+      "image": "assets/home-ups/Screenshot_2024-03-08_at_4.13 1.png",
+      "title": "Microtek LUXE 1000",
+      "description": "800 VA / 12V",
+      "warranty": "24 Months Warranty"
+    },
+    {
+      "image": "assets/home-ups/IMG_4313-removebg-preview 1.png",
+      "title": "Luminous Zelio Smart 1100",
+      "description": "900 VA / 12V",
+      "warranty": "24 Months Warranty"
+    },
+    {
+      "image": "assets/home-ups/Microtek_luxe_1400-removebg-preview 1.png",
+      "title": "Microtek LUXE 1400",
+      "description": "1000 VA / 12V",
+      "warranty": "24 Months Warranty"
+    },
+    {
+      "image": "assets/home-ups/Screenshot_2024-03-10_at_1.01 1.png",
+      "title": "Luminous Li-ON 1250",
+      "description": "1100 VA / 12V",
+      "warranty": "96 Months Warranty"
+    },
+    {
+      "image": "assets/home-ups/IMG_4324-removebg-preview (1) 1.png",
+      "title": "Luminous Eco Watt Neo 1650",
+      "description": "1500 VA / 24V",
+      "warranty": "24 Months Warranty"
+    },
+    {
+      "image": "assets/home-ups/IMG_4379-removebg-preview (1) 1.png",
+      "title": "Microtek E2 1825",
+      "description": "1625 VA / 24V",
+      "warranty": "24 Months Warranty"
+    },
+    {
+      "image": "assets/home-ups/IMG_4347-removebg-preview 1.png",
+      "title": "Microtek Heavy Duty 2350",
+      "description": "2000 VA / 24V",
+      "warranty": "24 Months Warranty"
+    },
+    {
+      "image": "assets/home-ups/IMG_4364-removebg-preview (1) 1.png",
+      "title": "Luminous Eco Volt Neo 2300+",
+      "description": "2000 VA / 24V",
+      "warranty": "24 Months Warranty"
+    },
+    {
+      "image": "assets/home-ups/44bca2cd-01dc-494e-9569-d3726ab1896c_Optimus 2300+ inverter-1 1.png",
+      "title": "Luminous Optimus 2300+",
+      "description": "2000 VA / 12V",
+      "warranty": "24 Months Warranty"
+    }
+  ],
+  "description": [
+    {
+      "type": "paragraph",
+      "text": "Safeguard Your Electronics with Reliable Luminous and Microtek UPS Systems. Ensure uninterrupted power and safeguard your valuable electronics with dependable 800VA to 2400VA UPS systems from Luminous and Microtek. Perfect for home offices and small businesses, these UPS systems provide critical backup power during outages, protecting your equipment and preventing data loss."
+    },
+    {
+      "type": "paragraph",
+      "text": "Key features of Luminous and Microtek UPS systems:"
+    },
+    {
+      "type": "bullet",
+      "text": [
+        "Reliable Backup Power: During power cuts, your UPS seamlessly takes over, providing enough power to keep your equipment running and essential tasks uninterrupted.",
+        "Surge Protection: Safeguard your devices from damaging voltage spikes and ensure long-lasting performance.",
+        "Variety of VA capacities: Choose from a range of 800VA to 2400VA options to perfectly match your power requirements.",
+        "Reputable Brands: Luminous and Microtek are leading names in UPS technology, renowned for their quality and reliability."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Invest in peace of mind with a Luminous or Microtek UPS system. Browse our selection today and find the perfect solution for your needs."
+    }
+  ]
+}
+  

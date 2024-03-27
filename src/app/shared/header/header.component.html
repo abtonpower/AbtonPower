@@ -1,0 +1,25 @@
+<header class="header">
+  <div class="logo-container">
+    <img src="assets/Company-logo.png" alt="Company Logo" class="logo">
+  </div>
+  <nav mat-tab-nav-bar>
+    <a mat-tab-link routerLink="/home">Home</a>
+    <div mat-tab-link class="dropdown" [matMenuTriggerFor]="menu">
+      Inverter
+      <mat-icon>arrow_drop_down</mat-icon>
+    </div>
+    <a mat-tab-link routerLink="/smf-battery">Batteries</a>
+    <a mat-tab-link routerLink="/home">Online UPS</a>
+    <a mat-tab-link routerLink="/home">Solar</a>
+    <a mat-tab-link routerLink="/home">Contact Us</a>
+  </nav>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="/home-ups">Home UPS (850-2400 VA)</button>
+    <button mat-menu-item routerLink="/high-capacity-inverters">High Capacity (2500 - 11000 VA)</button>
+  </mat-menu>
+</header>
+
+  
+    
+  
+  

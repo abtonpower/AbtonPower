@@ -1,0 +1,33 @@
+<div class="page-background">
+  <div class="header-title">
+    <h1 class="main-title">{{title}}</h1>
+    <h2 class="sub-title">{{subtitle}}</h2>
+</div>
+
+  <div class="card-container">
+    <div class="row" *ngFor="let row of rows">
+      <div class="card-background" *ngFor="let card of row">
+        <mat-card class="card">
+          <img class="card-image" mat-card-image [src]="card.image" alt="Microtek JUMBO 4000+">
+          <mat-card-content class="card-content">
+            <mat-card-title class="card-title">{{card.title}}</mat-card-title>
+            <mat-card-subtitle class="subtitle">{{card.description}}</mat-card-subtitle>
+            <mat-card-subtitle>{{card.warranty}}</mat-card-subtitle>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+
+  <div *ngFor="let section of sections">
+      <ng-container *ngIf="section.type === 'paragraph'">
+        <p class="text">{{ section.text }}</p>
+      </ng-container>
+      <ng-container *ngIf="section.type === 'bullet'">
+        <ul>
+          <li class="text" *ngFor="let item of section.text">{{ item }}</li>
+        </ul>
+      </ng-container>
+  </div>
+  
+</div>
