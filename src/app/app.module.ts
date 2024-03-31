@@ -16,7 +16,11 @@ import { MatInputModule } from '@angular/material/input';
 import { HighCapacityInvertersComponent } from './high-capacity-inverters/high-capacity-inverters.component';
 import { SMFBatteryComponent } from './smf-battery/smf-battery.component';
 import { HttpClientModule } from '@angular/common/http';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { BatteriesInverterComponent } from './batteries-inverter/batteries-inverter.component';
+import { OnlineUpsComponent } from './online-ups/online-ups.component';
+import { SolarPcuComponent } from './solar-pcu/solar-pcu.component';
+import { SolarPanelsComponent } from './solar-panels/solar-panels.component';
 
 
 @NgModule({
@@ -27,7 +31,11 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     HomeUpsComponent,
     HighCapacityInvertersComponent,
-    SMFBatteryComponent
+    SMFBatteryComponent,
+    BatteriesInverterComponent,
+    OnlineUpsComponent,
+    SolarPcuComponent,
+    SolarPanelsComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +46,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatTabsModule,
     MatIconModule,
     MatCardModule,
-    MatInputModule
+    MatInputModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

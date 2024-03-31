@@ -1,0 +1,94 @@
+{
+  "title": "Batteries",
+  "subtitle": "Inverter Batteries",
+  "data": [
+    {
+      "image": "src/assets/Batteries Inverter/ST42S1350.png",
+      "title": "SF Sonic ST42S1350",
+      "description": "135Ah",
+      "warranty": "42 Months Warranty"
+    },
+    {
+      "image": "src/assets/Batteries Inverter/rc16000.png",
+      "title": "Luminous RC16000",
+      "description": "135Ah",
+      "warranty": "48 Months Warranty"
+    },
+    {
+      "image": "src/assets/Batteries Inverter/Exide Invabrite.png",
+      "title": "Exide Invabrite",
+      "description": "135Ah",
+      "warranty": "42 Months Warranty"
+    },
+    {
+      "image": "src/assets/Batteries Inverter/Amaron 136Ah.png",
+      "title": "Amaron AAM-CR",
+      "description": "135Ah",
+      "warranty": "36 Months Warranty"
+    },
+    {
+      "image": "src/assets/Batteries Inverter/18000st.png",
+      "title": "Luminous RC18000 ST",
+      "description": "150Ah",
+      "warranty": "48 Months Warranty"
+    },
+    {
+      "image": "src/assets/Batteries Inverter/Luminous sc18060.png",
+      "title": "Luminous SC 18060",
+      "description": "150Ah",
+      "warranty": "60 Months Warranty"
+    },
+    {
+      "image": "src/assets/Batteries Inverter/el150.png",
+      "title": "Exide EL150",
+      "description": "150Ah",
+      "warranty": "36 Months Warranty"
+    },
+    {
+      "image": "src/assets/Batteries Inverter/TT60S150.png",
+      "title": "SF Sonic TT60S150",
+      "description": "150Ah",
+      "warranty": "60 Months Warranty"
+    },
+    {
+      "image": "src/assets/Batteries Inverter/TT48S200.png",
+      "title": "SF Sonic TT48S200",
+      "description": "200Ah",
+      "warranty": "48 Months Warranty"
+    }
+  ],
+
+  "description": [
+    {
+      "type": "paragraph",
+      "text": "Power Your Delhi NCR Home, Office, or Business with Top-Tier Inverter Batteries (135AH-200AH)! Looking for reliable inverter batteries to keep your Delhi NCR home, office, or business powered during outages? Look no further! We offer a comprehensive selection of high-quality inverter batteries from trusted brands like Exide, SF Sonic, Luminous, and Amaron, ranging from 135AH to 200AH capacity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Benefits for Your Delhi NCR Property:"
+    },
+    {
+      "type": "bullet",
+      "text": [
+        "Uninterrupted Power Supply: Ensure seamless operation of your essential appliances, electronics, and lighting during power cuts.",
+        "Enhanced Reliability: Experience long-lasting performance and dependable backup power with our premium inverter batteries.",
+        "Extended Runtime: Choose from 135AH to 200AH capacities to suit your specific power needs and desired backup duration.",
+        "Wide Brand Selection: Find the perfect inverter battery for your budget and requirements from leading brands like Exide, SF Sonic, Luminous, and Amaron."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Why Choose Us for Your Delhi NCR Inverter Battery Needs?"
+    },
+    {
+      "type": "bullet",
+      "text": [
+        "Expert Advice: Our knowledgeable team will help you select the ideal inverter battery based on your power consumption and usage patterns.",
+        "Superior Quality: We offer only the best inverter batteries from trusted brands known for their durability and performance.",
+        "Competitive Prices: Get the best value for your money on high-quality inverter batteries for your Delhi NCR property.",
+        "Hassle-Free Installation: Our technicians can expertly install your new inverter battery to ensure proper operation.",
+        "Reliable After-Sales Support: We offer comprehensive after-sales support to address any inquiries and ensure your complete satisfaction."
+      ]
+    }
+  ]
+}

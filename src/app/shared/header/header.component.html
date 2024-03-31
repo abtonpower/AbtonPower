@@ -4,18 +4,32 @@
   </div>
   <nav mat-tab-nav-bar>
     <a mat-tab-link routerLink="/home">Home</a>
-    <div mat-tab-link class="dropdown" [matMenuTriggerFor]="menu">
+    <div mat-tab-link class="dropdown" [matMenuTriggerFor]="InverterMenu">
       Inverter
       <mat-icon>arrow_drop_down</mat-icon>
     </div>
-    <a mat-tab-link routerLink="/smf-battery">Batteries</a>
-    <a mat-tab-link routerLink="/home">Online UPS</a>
-    <a mat-tab-link routerLink="/home">Solar</a>
+    <div mat-tab-link class="dropdown" [matMenuTriggerFor]="BatteryMenu">
+      Batteries
+      <mat-icon>arrow_drop_down</mat-icon>
+    </div>
+    <a mat-tab-link routerLink="/online-ups">Online UPS</a>
+    <div mat-tab-link class="dropdown" [matMenuTriggerFor]="SolarMenu">
+      Solar
+      <mat-icon>arrow_drop_down</mat-icon>
+    </div>
     <a mat-tab-link routerLink="/home">Contact Us</a>
   </nav>
-  <mat-menu #menu="matMenu">
+  <mat-menu #InverterMenu="matMenu">
     <button mat-menu-item routerLink="/home-ups">Home UPS (850-2400 VA)</button>
     <button mat-menu-item routerLink="/high-capacity-inverters">High Capacity (2500 - 11000 VA)</button>
+  </mat-menu>
+  <mat-menu #BatteryMenu="matMenu">
+    <button mat-menu-item routerLink="/smf-battery">SMF / VRLA / UPS Batteries</button>
+    <button mat-menu-item routerLink="/inverter-battery">Inverter Batteries</button>
+  </mat-menu>
+  <mat-menu #SolarMenu="matMenu">
+    <button mat-menu-item routerLink="/solar-panels">Solar Panels</button>
+    <button mat-menu-item routerLink="/solar-pcu">Solar Inverters & MPPT PCU</button>
   </mat-menu>
 </header>
 

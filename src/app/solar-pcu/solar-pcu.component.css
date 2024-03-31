@@ -1,0 +1,83 @@
+.page-background {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+  }
+
+  .header-title {
+    padding-top: 4rem;
+    text-align: center;
+
+    .main-title {
+        font-size: 60px;
+        font-weight: 500;
+    }
+
+    .sub-title {
+        font-size: 32px;
+        font-style: 500;
+    }
+  }
+  
+  .card-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0 auto; 
+    max-width: 1200px; 
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+  }
+  
+  .card-background {
+    box-sizing: border-box;
+    width: calc(25% - 20px); 
+    height: 331px; 
+    background-color: #fafaf5;
+    overflow: hidden;
+    border-radius: 24px;
+    border: 2px solid #e6e6e6;
+    margin-right: 20px; 
+  }
+  
+  .card-content {
+    text-align: center;
+    height: 331px;
+  }
+  
+  .card-image {
+    width: 200px;
+    height: 200px;
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+  }
+
+  .warranty {
+    padding-top: 1rem;
+  }
+  
+  .row:last-child {
+    justify-content: flex-start;
+  }
+  
+  .subtitle {
+    padding-top: 0.5rem;
+    margin-bottom: -0.1rem;
+    color:#027A7A;
+  }
+  
+  .card-title{
+    height: 35px;
+  }
+
+  .text {
+    font-size: 16px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+
+  

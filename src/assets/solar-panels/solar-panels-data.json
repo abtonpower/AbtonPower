@@ -1,0 +1,80 @@
+{
+    "title": "Solar",
+    "subtitle": "Solar Panels",
+    "data": [
+        {
+            "image": "assets/solar-panels/Screenshot_2024-03-09_at_11.50 1.png",
+            "title": "Microtek 50/12V",
+            "warranty": "60 Months Warranty"
+        },
+        {
+            "image": "assets/solar-panels/Screenshot_2024-03-09_at_11.50 1.png",
+            "title": "Microtek MTK75/12V",
+            "warranty": "60 Months Warranty"
+        },
+        {
+            "image": "assets/solar-panels/Screenshot_2024-03-09_at_11.50 1.png",
+            "title": "MTK100/12V",
+            "warranty": "60 Months Warranty"
+        },
+        {
+            "image": "assets/solar-panels/Screenshot_2024-03-09_at_11.50 1.png",
+            "title": "MTK150/12V",
+            "warranty": "60 Months Warranty"
+        },
+        {
+            "image": "assets/solar-panels/Screenshot_2024-03-09_at_11.54 2.png",
+            "title": "MTK260/24V",
+            "warranty": "60 Months Warranty"
+        },
+        {
+            "image": "assets/solar-panels/Screenshot_2024-03-09_at_11.54 2.png",
+            "title": "MTK320/24",
+            "warranty": "60 Months Warranty"
+        },
+        {
+            "image": "assets/solar-panels/896cfb49-65f0-4298-a5b5-7eaefe9e3d3a_40W_Poly_crystalline-panel_1 1.png",
+            "title": "Luminous 80/12V Polycrystalline",
+            "warranty": "60 Months Warranty"
+        },
+        {
+            "image": "assets/solar-panels/896cfb49-65f0-4298-a5b5-7eaefe9e3d3a_40W_Poly_crystalline-panel_1 1.png",
+            "title": "Luminous 40W/12V Polycrystalline",
+            "warranty": "60 Months Warranty"
+        },
+        {
+            "image": "assets/solar-panels/896cfb49-65f0-4298-a5b5-7eaefe9e3d3a_40W_Poly_crystalline-panel_1 1.png",
+            "title": "Luminous 335/24V Polycrystalline",
+            "warranty": "60 Months Warranty"
+        },
+        {
+            "image": "assets/solar-panels/b10f1ebb-4e14-45f4-823f-cf0ab0e1cf41_540W-Mono-perc-half-cut-panel_1 (1) 1.png",
+            "title": "Luminous 550W/24V Mono Perc Halfcut",
+            "warranty": "144 Months Warranty"
+        }
+    ],
+    "description": [
+        {
+            "type": "paragraph",
+            "text": " Light Up Your Delhi NCR Home with Microtek & Luminous Solar Panels (Okhla, Gurgaon, Noida). Harness clean energy and save on electricity bills in Delhi NCR with Microtek and Luminous solar panels! We offer a wide range of high-efficiency Microtek and Luminous solar panels in Okhla, Gurgaon, and Noida, perfect for homeowners looking to make the switch to renewable energy. Convert sunlight into clean electricity and reduce your dependence on the grid, all while lowering your monthly energy costs."
+        },
+        {
+            "type": "paragraph",
+            "text": "Why Choose Microtek & Luminous Solar Panels for Your Delhi NCR Home?"
+        },
+        {
+            "type": "bullet",
+            "text": [
+                "Local Expertise: Get expert advice and installation from our team, serving the Okhla, Gurgaon, and Noida areas.",
+                "Top-Tier Brands: Microtek and Luminous are leading solar panel manufacturers, known for their quality, efficiency, and durability.",
+                "Customized Solutions: We offer a variety of panel options and system sizes to perfectly match your energy requirements and budget.",
+                "Reduced Electricity Bills: Generate your own clean electricity and significantly lower your reliance on the traditional grid.",
+                "Long-Term Savings: Invest in a sustainable future with solar panels that offer excellent returns on investment."
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "Embrace a Greener Future with Solar Power. Whether you're located in Okhla, Gurgaon, Noida, or surrounding areas, we can help you design and install a solar panel system that meets your specific needs.  Contact us today for a free consultation and discover the benefits of solar energy for your home!"
+        }
+    ]
+}

@@ -14,4 +14,8 @@ export class BatteryService {
   public getSMFBatteryData(): Observable<any> {
     return this.http.get<any>('assets/batteries/batteries-data.json');
   }
+
+  public getBatteryInverterData(): Observable<any> {
+    return this.http.get<any>('assets/Batteries Inverter/inverter-batteries-data.json');
+  }
 }
