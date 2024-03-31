@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-footer',
@@ -11,7 +12,10 @@ export class FooterComponent implements OnInit {
   contactForm!: FormGroup;
   selectedFileName= 'Picture of current setup';
 
-  constructor(private formBuilder: FormBuilder) { }
+  constructor(
+    private formBuilder: FormBuilder,
+    private _snackBar: MatSnackBar
+  ) { }
 
   ngOnInit(): void {
     this.contactForm = this.formBuilder.group({
@@ -24,6 +28,7 @@ export class FooterComponent implements OnInit {
   }
 
   onSubmit() {
+    this.openSnackBar();
     this.contactForm.reset();
     this.selectedFileName= 'Picture of current setup';
   }
@@ -32,6 +37,12 @@ export class FooterComponent implements OnInit {
     if (selectedFile) {
       this.selectedFileName = selectedFile.name;
     } 
+  }
+
+  openSnackBar() {
+    this._snackBar.open("Form submitted successfully!", 'OK', {
+      duration: 5000,
+    });
   }
 }
 

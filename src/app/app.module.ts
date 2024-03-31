@@ -21,6 +21,7 @@ import { BatteriesInverterComponent } from './batteries-inverter/batteries-inver
 import { OnlineUpsComponent } from './online-ups/online-ups.component';
 import { SolarPcuComponent } from './solar-pcu/solar-pcu.component';
 import { SolarPanelsComponent } from './solar-panels/solar-panels.component';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { SolarPanelsComponent } from './solar-panels/solar-panels.component';
     MatIconModule,
     MatCardModule,
     MatInputModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

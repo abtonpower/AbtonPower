@@ -3,55 +3,55 @@
   "subtitle": "Inverter Batteries",
   "data": [
     {
-      "image": "src/assets/Batteries Inverter/ST42S1350.png",
+      "image": "assets/Batteries Inverter/ST42S1350.png",
       "title": "SF Sonic ST42S1350",
       "description": "135Ah",
       "warranty": "42 Months Warranty"
     },
     {
-      "image": "src/assets/Batteries Inverter/rc16000.png",
+      "image": "assets/Batteries Inverter/rc16000.png",
       "title": "Luminous RC16000",
       "description": "135Ah",
       "warranty": "48 Months Warranty"
     },
     {
-      "image": "src/assets/Batteries Inverter/Exide Invabrite.png",
+      "image": "assets/Batteries Inverter/Exide Invabrite.png",
       "title": "Exide Invabrite",
       "description": "135Ah",
       "warranty": "42 Months Warranty"
     },
     {
-      "image": "src/assets/Batteries Inverter/Amaron 136Ah.png",
+      "image": "assets/Batteries Inverter/Amaron 136Ah.png",
       "title": "Amaron AAM-CR",
       "description": "135Ah",
       "warranty": "36 Months Warranty"
     },
     {
-      "image": "src/assets/Batteries Inverter/18000st.png",
+      "image": "assets/Batteries Inverter/18000st.png",
       "title": "Luminous RC18000 ST",
       "description": "150Ah",
       "warranty": "48 Months Warranty"
     },
     {
-      "image": "src/assets/Batteries Inverter/Luminous sc18060.png",
+      "image": "assets/Batteries Inverter/Luminous sc18060.png",
       "title": "Luminous SC 18060",
       "description": "150Ah",
       "warranty": "60 Months Warranty"
     },
     {
-      "image": "src/assets/Batteries Inverter/el150.png",
+      "image": "assets/Batteries Inverter/el150.png",
       "title": "Exide EL150",
       "description": "150Ah",
       "warranty": "36 Months Warranty"
     },
     {
-      "image": "src/assets/Batteries Inverter/TT60S150.png",
+      "image": "assets/Batteries Inverter/TT60S150.png",
       "title": "SF Sonic TT60S150",
       "description": "150Ah",
       "warranty": "60 Months Warranty"
     },
     {
-      "image": "src/assets/Batteries Inverter/TT48S200.png",
+      "image": "assets/Batteries Inverter/TT48S200.png",
       "title": "SF Sonic TT48S200",
       "description": "200Ah",
       "warranty": "48 Months Warranty"
