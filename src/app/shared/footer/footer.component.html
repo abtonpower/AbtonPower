@@ -17,7 +17,7 @@
 
     <div class="input-form">
       <p class="form-title">Get in Touch</p>
-      <form [formGroup]="contactForm" name="contact" method="POST" (ngSubmit)="onSubmit()" class="form-container" data-netlify="true">
+      <form [formGroup]="contactForm" name="contact" method="POST" (ngSubmit)="onSubmit()" class="form-container" netlify>
         <div class="form-group">
           <input name="name" type="text" id="name" formControlName="name" class="form-control" placeholder="Name" required>
         </div>

@@ -18,4 +18,17 @@ export class BatteryService {
   public getBatteryInverterData(): Observable<any> {
     return this.http.get<any>('assets/Batteries Inverter/inverter-batteries-data.json');
   }
+
+  public postForm(formData: any): Observable<any> {
+    const plainFormData: any = this.extractFormData(formData);
+    return this.http.post('https://formspree.io/f/xayrppek', formData);
+  }
+
+  private extractFormData(formData: any): any {
+    let plainFormData: any = {};
+    Object.keys(formData.controls).forEach(key => {
+      plainFormData[key] = formData.controls[key].value;
+    });
+    return plainFormData;
+  }
 }
