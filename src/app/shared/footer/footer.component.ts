@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpClientModule, HttpHeaders } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
@@ -18,7 +18,7 @@ export class FooterComponent implements OnInit {
   constructor(
     private formBuilder: FormBuilder,
     private _snackBar: MatSnackBar,
-    private batteryService: BatteryService
+    private http: HttpClient,
   ) { }
 
   ngOnInit(): void {
@@ -31,23 +31,26 @@ export class FooterComponent implements OnInit {
     });
   }
 
-  onSubmit() {
-    if(this.contactForm.valid){
-      // this.formData.append('picture', this.contactForm.get('name')?.value)
-      // this.formData.append('name', this.contactForm.get('name')?.value)
-      // this.formData.append('email', this.contactForm.get('email')?.value)
-      // this.formData.append('contact', this.contactForm.get('contactNumber')?.value)
-      // this.formData.append('requirement', this.contactForm.get('requirement')?.value)
-      
-      this.batteryService.postForm(this.contactForm).subscribe(res=>{
-    
-      })
-    }
-    setTimeout(()=> {
-      this.openSnackBar();
-      this.contactForm.reset();
-      this.selectedFileName= 'Picture of current setup';
-    },1000);
+  onSubmit(evt: any) {
+    evt.preventDefault();
+
+    const formData = this.contactForm.value;
+
+    formData['form-name'] = 'contact';
+    const headers = new HttpHeaders({
+      Accept: 'text/html',
+      'Content-Type': 'multipart/form-data',
+    });
+
+    this.http
+      .post('/', new URLSearchParams(formData).toString(), { headers, responseType: 'text' })
+      .subscribe(() => {
+        setTimeout(()=> {
+          this.openSnackBar();
+          this.contactForm.reset();
+          this.selectedFileName= 'Picture of current setup';
+        },1000);
+      });
    
   }
   onFileSelected(event: any): void {
