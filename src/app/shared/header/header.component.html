@@ -2,7 +2,7 @@
   <div class="logo-container">
     <img src="assets/Company-logo.png" alt="Company Logo" class="logo">
   </div>
-  <nav mat-tab-nav-bar>
+   <nav mat-tab-nav-bar class="nav-bar">
     <a mat-tab-link routerLink="/home">Home</a>
     <div mat-tab-link class="dropdown" [matMenuTriggerFor]="InverterMenu">
       Inverter
@@ -31,7 +31,25 @@
     <button mat-menu-item routerLink="/solar-panels">Solar Panels</button>
     <button mat-menu-item routerLink="/solar-pcu">Solar Inverters & MPPT PCU</button>
   </mat-menu>
-</header>
+
+  <div class="Mobile-nav">
+    <a class="tab-link" routerLink="/home">Home</a>
+    <div class="dropdown tab-link" [matMenuTriggerFor]="InverterMenu">
+      Inverter
+      <mat-icon>arrow_drop_down</mat-icon>
+    </div>
+    <div class="dropdown tab-link" [matMenuTriggerFor]="BatteryMenu">
+      Batteries
+      <mat-icon>arrow_drop_down</mat-icon>
+    </div>
+    <a class="tab-link" routerLink="/online-ups">Online UPS</a>
+    <div class="dropdown tab-link" [matMenuTriggerFor]="SolarMenu">
+      Solar
+      <mat-icon>arrow_drop_down</mat-icon>
+    </div>
+    <a class="tab-link" routerLink="/home">Contact Us</a>
+  </div>
+</header> 
 
   
     
