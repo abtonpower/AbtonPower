@@ -2,29 +2,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 0; 
+  padding: 10px 0;
 }
 
 .logo-container {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .logo {
-  width: 200px; 
+  width: 200px;
 }
 
 .mat-tab-nav-bar {
   width: 95%;
-  background-color: black; 
-  box-shadow: 10px 6px 2px rgba(77, 36, 165, 0.5); 
+  background-color: black;
+  box-shadow: 10px 6px 2px rgba(77, 36, 165, 0.5);
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .mat-tab-link {
-  flex: 1; 
-  text-align: center; 
-  color: white; 
+  flex: 1;
+  text-align: center;
+  color: white;
+  
 }
 
 .dropdown {
@@ -34,4 +35,61 @@
 
 .mat-icon {
   margin-left: 5px;
+  /* background-color: #790c46; */
+}
+.mat-tab-header-pagination {
+  display: none !important;
+}
+
+.Mobile-nav{
+  display: none;
+}
+
+/* responsive design   */
+@media (max-width: 768px) {
+  .logo-container {
+    margin-right: 0;
+  }
+
+  .nav-bar {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    /* Allow items to wrap onto the next line */
+    justify-content: space-evenly;
+    /* Center items horizontally */
+    /* overflow:scroll; */
+    /* background-color: brown; */
+    align-items:center;
+    align-content: space-evenly;
+    /* height: 200px; */
+    
+  } 
+  
+  .Mobile-nav{
+    display: block;
+    padding: 10px 20px;
+    font-size: 22px;
+    background-color: rgba(36, 36, 36, 0.878);
+    color: whitesmoke;
+    box-shadow: 10px 6px 2px rgba(77, 36, 165, 0.5);
+  }
+  .Mobile-nav a{
+    color: white;
+    text-decoration: none;
+  }
+  .tab-link{
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .mat-tab-nav-bar{
+    display: none;
+  }
+  /* Hide Angular Material left and right arrows for horizontal scrolling */
+ /* .mat-tab-links{
+  display: block !important;
+ }
+   */
+
 }
