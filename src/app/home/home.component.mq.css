@@ -251,5 +251,24 @@
   
   
   }
+
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    /* Your styles for 13-inch laptops here */
+    .map{
+      
+        width: 90% !important;
+        height: 100% !important;
+        /* right: 0% !important; */
+        /* border: 2px solid black; */
+        position: relative;
+    }
+    
+    
+    .map {
+        margin-right: 0px !important;
+        margin-left: 0 !important;
+        right: 0;
+    }
+}
   
   
