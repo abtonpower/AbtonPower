@@ -70,13 +70,17 @@
     display: block;
     padding: 10px 20px;
     font-size: 22px;
-    background-color: rgba(36, 36, 36, 0.878);
-    color: whitesmoke;
+    /* background-color: rgba(36, 36, 36, 0.878); */
+    background-color: black;
+    /* color: whitesmoke; */
+    color: #fff;
     box-shadow: 10px 6px 2px rgba(77, 36, 165, 0.5);
   }
   .Mobile-nav a{
     color: white;
     text-decoration: none;
+    align-content: space-evenly;
+    padding: 4%;
   }
   .tab-link{
     display: inline-block;
