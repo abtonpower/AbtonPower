@@ -74,6 +74,58 @@
     margin-left: 2rem;
     margin-right: 2rem;
   }
+  @media (max-width: 768px){
+
+    .card-container{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .card-background{
+      display: flex;
+      flex-wrap: wrap;
+      width: calc(50% - 10px);
+      margin: 5px;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .card{
+     width: 100%;
+    }
+    .card-image {
+      width: 50%;
+      height: 45%;
+      padding-left: 35%;
+      padding-top: 2.0rem;
+      align-items: center;
+    }
+    .card-content {
+      text-align: center;
+      height: 4px;
+    }
+    .row:last-child {
+      justify-content: center;
+    }
+    .subtitle {
+      padding-top: 3.0rem;
+      margin-bottom: -0.1rem;
+      color: #027A7A;
+      text-align: center;
+    }
+    .card-title {
+      height: 15px;
+      width: 100%;
+      font-size: 1rem;
+      text-align: center;
+    }
+    .text {
+      font-size: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
 
 
-  
+  }

@@ -216,5 +216,24 @@
     margin-top: 10px;
     margin-bottom: 2rem;
   }
-  
-  
+  /* .map-container{
+    background-color: rgba(49, 24, 104, 0.74);
+    border: 2px solid brown;
+    align-items: center;
+  } */
+  .map{
+    align-items: center;
+    margin-left: 450px;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    margin-right: 2050px;
+    /* border: 4px solid brown; */
+    /* display: none; */
+    position: relative;
+    right: 25%;
+    bottom: 20%;
+    width: 60%;
+    border-radius: 2%;
+    margin-bottom: 50px;
+
+  }
