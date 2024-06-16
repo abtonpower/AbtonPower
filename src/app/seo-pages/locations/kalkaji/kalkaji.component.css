@@ -1,0 +1,87 @@
+*body{
+  font-size: 2px;
+}
+.text p {
+    color: white;
+    margin-top: 3rem;
+    margin-inline: 3rem;
+    text-align: center;
+    padding-bottom: 3rem;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+
+}
+
+/* Changed */
+  .algin-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: row; /* Arrange items vertically */
+    padding: 0rem;
+    margin-inline: 5rem;
+  }
+
+  .image-container img {
+    width: 100%; /* Make the image fill the container horizontally */
+    height: 300px; /* Set the height of the image */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+    border: 0px;
+    border-radius: 0%;
+  }
+
+  .whitebox{
+    text-align: center;
+    padding-inline: 5rem;
+  }
+
+  .whitebox h1{
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 3rem;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .whitebox h2{
+    font-size: 2rem;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+  .subwhitebox{
+    margin-top: 3rem ;
+    margin-bottom: 3rem;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .subwhitebox p{
+    font-size: large;
+    text-align: inherit;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .heading b{
+    color: red;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+  .heading{
+    padding: 2rem;
+    color: white;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .heading p{
+    padding: 10px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .linearcontainer{
+    background:linear-gradient(to bottom, rgb(29, 19, 29), rgb(101, 71, 121) );
+  }
+

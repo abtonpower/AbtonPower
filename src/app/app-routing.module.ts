@@ -8,6 +8,7 @@ import { OnlineUpsComponent } from './online-ups/online-ups.component';
 import { BatteriesInverterComponent } from './batteries-inverter/batteries-inverter.component';
 import { SolarPanelsComponent } from './solar-panels/solar-panels.component';
 import { SolarPcuComponent } from './solar-pcu/solar-pcu.component';
+import {KalkajiComponent} from './seo-pages/locations/kalkaji/kalkaji.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'inverter-battery', component: BatteriesInverterComponent},
   { path: 'solar-pcu', component: SolarPcuComponent},
   { path: 'solar-panels', component: SolarPanelsComponent},
+  { path: 'location-kalkaji',component:KalkajiComponent},
   { path: '**', component: HomeComponent}
 ];
 
