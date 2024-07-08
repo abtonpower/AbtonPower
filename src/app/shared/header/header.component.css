@@ -70,6 +70,7 @@
     display: block;
     padding: 10px 20px;
     font-size: 22px;
+    justify-content: space-evenly;
     /* background-color: rgba(36, 36, 36, 0.878); */
     background-color: black;
     /* color: whitesmoke; */
@@ -85,6 +86,13 @@
   .tab-link{
     display: inline-block;
     padding: 10px;
+    
+  }
+  .second-row{
+    align-items: start;
+    margin-right: 20px;
+    margin-left: 20px;
+
   }
   
   .mat-tab-nav-bar{
