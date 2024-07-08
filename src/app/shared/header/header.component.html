@@ -13,10 +13,10 @@
       <mat-icon>arrow_drop_down</mat-icon>
     </div>
     <a mat-tab-link routerLink="/online-ups">Online UPS</a>
-    <div mat-tab-link class="dropdown" [matMenuTriggerFor]="SolarMenu">
+    <!-- <div mat-tab-link class="dropdown" [matMenuTriggerFor]="SolarMenu">
       Solar
       <mat-icon>arrow_drop_down</mat-icon>
-    </div>
+    </div> -->
     <a mat-tab-link routerLink="/home">Contact Us</a>
   </nav>
   <mat-menu #InverterMenu="matMenu">
@@ -42,12 +42,12 @@
       Batteries
       <mat-icon>arrow_drop_down</mat-icon>
     </div>
-    <a class="tab-link" routerLink="/online-ups">Online UPS</a>
-    <div class="dropdown tab-link" [matMenuTriggerFor]="SolarMenu">
+    <a class="tab-link second-row" routerLink="/online-ups">Online UPS</a>
+    <!-- <div class="dropdown tab-link" [matMenuTriggerFor]="SolarMenu">
       Solar
       <mat-icon>arrow_drop_down</mat-icon>
-    </div>
-    <a class="tab-link" routerLink="/home">Contact Us</a>
+    </div> -->
+    <a class="tab-link second-row" routerLink="/home">Contact Us</a>
   </div>
 </header> 
 
